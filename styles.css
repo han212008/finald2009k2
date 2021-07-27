@@ -1,0 +1,360 @@
+@charset "utf-8";
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&family=Varela+Round&display=swap');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Noto+Sans&family=Roboto&family=Varela+Round&display=swap');
+</style>
+
+
+/* CSS Document */
+{
+	margin: 0;
+	padding: 0;
+}
+a{font-family:'Roboto', sans-serif;
+}
+
+h1,h3,h4,h5,h6,a{
+	font-family:'Noto Sans', sans-serif;
+}
+h2{
+ font-family: 'Acme', sans-serif;
+}
+.header{
+	background: ;
+	width: 100%;
+	height: 100px;
+}
+.logo{
+	background:;
+	width: 100%;
+	height: 100px;
+	padding-top: 30px;
+	
+}
+.container1{
+	align-content: center;
+	float: right;
+}
+.nav a{
+	text-decoration: none;
+	color: black;
+	float: right;
+	font-size: 15px;
+	text-decoration: none;
+	padding: 2px 35px;
+/*	background: black;*/
+	color: white;
+	letter-spacing: 2px;
+	border: 1px solid black;
+		
+}
+.nav ul{
+	list-style: none;
+	text-align: left;
+	padding: 0px 10px;
+	margin: 0px 0px;
+}
+.nav ul li{
+	display: inline-block;
+	margin: 0 20px;
+}
+.nav ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+
+.main{
+	background: grey;
+	height: 100px;
+	width: 100%;
+}
+.banner{
+	background: ;
+	height: 80px;
+	width: 100%;
+	padding: 0px 0px;
+	margin-top: 50px;
+}
+.nav2{
+	margin: 20px;
+	padding-top: 20px
+}
+.nav2 a{
+	font-family:'Varela Round', sans-serif;
+}
+.nav2 ul{
+	list-style: none;
+	text-align: left;
+	padding: 10px 10px;
+	margin: 0px 0px;
+}
+.nav2 ul li{
+	display: inline-block;
+	margin: 0 20px;
+}
+.nav2 ul li a{
+	color: black;
+	text-decoration: none;
+}
+.nav2 icon a{
+	color: black;
+	font-size: 50px;
+	margin: 0 10px;
+	float: right
+	
+}
+.row{
+	width: 100%;
+	height: 500px;
+	background: grey;
+}
+.row video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.text-box{
+	background: rgba(0,0,0,0.50);
+	position: absolute;
+	top: 30%;
+	left: 15%;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	padding: 70px 70px;
+	margin: 90px 0px
+	
+}
+.text-box h3{
+	font-size: 16px;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+}
+.text-box h1{
+	font-size: 72px;
+	letter-spacing: 10px;
+	margin: 20px 0;
+}
+.text-box p{
+	font-size: 14px;
+	letter-spacing: 3px;
+	margin-bottom: 50px
+}
+.banner2 a{
+	
+}
+.text-box a{
+	font-size: 14px;
+	text-decoration: none;
+	padding: 20px 40px;
+/*	background: black;*/
+	color: white;
+	letter-spacing: 2px;
+	border: 1px solid white ;
+}
+.text-box a:hover{
+	background: background: #67B26F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+	color: whitesmoke;
+}
+.icon a{
+	color: white;
+	font-size: 30px;
+	margin: 0 10px;
+}
+
+.banner2{
+	width: 100%;
+	height: 500px;
+	background: ;
+	padding: 0px; 20px;
+	margin: 0px 0px;
+}
+.info{
+  width: 60%;
+	background: ;
+	height: 300px;
+	margin: 100px 0px;
+	padding: 30px;
+	float: right
+}
+.info2{
+	width: 20%;
+	background: ;
+	height: 300px;
+	float: left;
+	margin:  100px 40px;
+	padding: 40px
+}
+.info2 a{
+	align-content: center;
+	text-decoration: none;
+	color: white;
+}
+.text-box h1{
+	background: #67B26F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	
+}
+.box{
+	width: 190px;
+	height: 350px;
+	background: blue;
+	margin: 0px 30px;
+	float: left
+}
+.box{
+	display: flex;
+}
+.bai2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.name ul{
+	list-style: none;
+	text-align: left;
+	padding: 0px 0px;
+	margin-left:50px;
+	float: left;
+}
+.name ul li{
+	display: inline-block;
+	margin: 0px 100px;
+}
+.name ul li h3{
+	color: black;
+	text-decoration: none;
+}
+.info2 a{
+	background: ;
+	padding: 10px 5px;
+	margin-left: 50px;
+	color: black;
+	letter-spacing: 2px;
+	border: 1px solid black ;
+}
+.info2 a:hover{
+background: background: #67B26F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+	color: whitesmoke;
+	border: 1px solid white ;
+}
+.box ul li a{
+	display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.box ul li a:hover, .box ul li a:focus, .box ul li a:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.banner3{
+	width: 100%;
+	height: 500px;
+	background: ;
+	padding: 0px 0px;
+	margin-top: 200px
+}
+
+.video{
+	width: 100%;
+	height: 500px;
+	box-sizing: border-box;
+	float: right;
+}
+.line1{
+	width: 30%;
+	height: 425px;
+	box-sizing: border-box;
+	float: left;
+	background:yellow;
+	border-radius: 5%;
+	overflow: hidden;
+	margin: 50px 70px
+}
+.liner{
+	width: 40%;
+	height: 425px;
+	background: ;
+	float: right;
+	padding: 0px 0px;
+	margin: 50px;
+}
+
+.liner h2{
+	text-align: center;
+	
+}
+.banner4{
+	width: 100%;
+	height: 150px;
+	background: background: #67B26F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+	
+}
+.container10 p{
+	text-align: center;
+}
+.container10 h1{
+	text-align: center;
+}
+.banner4 h1{
+	text-align: center;
+	padding: 50px;
+}
+.tiltle{
+	text-align: center;
+}
+.icon-box{
+	background:;
+	text-align: center;
+}
+.right-content img{
+	width: 80%;
+}
+.img-box{
+	background:white;
+}
+.container10 h4{
+	text-align: center;
+}
+.footer{
+	width: 100%;
+	height: 500px;
+	background: ;
+	margin:500px 0px
+}
+.footer h4{
+	text-align: center
+}
+.footer h5{
+	text-align: center
+}
+.footer p{
+	text-align: center
+}
+
